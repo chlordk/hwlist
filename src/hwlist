@@ -19,7 +19,7 @@
 #------variables used------#
 S="************************************"
 D="-------------------------------------"
-COLOR="y"
+[ -t 1 ] && COLOR="y" || COLOR="n"
 
 #------Print welcome message at the top------#
 headfun()
